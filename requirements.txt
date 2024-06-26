@@ -49,3 +49,4 @@ python-novaclient!=2.33.0,>=2.29.0 # Apache-2.0
 python-neutronclient!=4.1.0,>=2.6.0 # Apache-2.0
 python-cinderclient>=1.3.1 # Apache-2.0
 python-swiftclient>=2.2.0 # Apache-2.0
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
